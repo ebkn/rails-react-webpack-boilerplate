@@ -29,5 +29,14 @@ module RailsReactWebpackBoilerplate
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # time zone
+    config.time_zone = 'Asia/Tokyo'
+
+    # generator settings
+    config.generators do |g|
+      g.test_framework :rspec
+      g.fixture_replacement :factory_bot, dir: 'spec/factories'
+    end
   end
 end
