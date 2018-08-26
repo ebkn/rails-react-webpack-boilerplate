@@ -7,10 +7,15 @@
   "author": "ebkn <ktennis.mqekr12@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --watch --progress"
+  },
   "dependencies": {
     "@babel/core": "^7.0.0-rc.3",
     "@babel/preset-env": "^7.0.0-rc.3",
     "babel-loader": "^8.0.0-beta",
-    "webpack": "^4.17.1"
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
   }
 }
