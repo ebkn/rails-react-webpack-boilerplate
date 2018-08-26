@@ -1,0 +1,39 @@
+AllCops:
+  Exclude:
+    - bin/*
+    - db/**/*
+    - vendor/**/*
+    - 'config/**/*'
+    - 'spec/rails_helper.rb'
+    - 'spec/spec_helper.rb'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'Rakefile'
+    - 'config.ru'
+
+# use rails rubocop
+Rails:
+  Enabled: true
+
+# disable top-level documentation warning
+Style/Documentation:
+  Enabled: false
+
+# 日本語コメント許可
+AsciiComments:
+  Enabled: false
+
+# disable line is too long warning
+Metrics/LineLength:
+  Exclude:
+    - 'lib/tasks/**/*'
+    - 'lib/**/spec/*'
+    - 'spec/**/*'
+
+# dieable Block has too many lines warning
+Metrics/BlockLength:
+  Exclude:
+    - 'lib/tasks/**/*'
+    - 'lib/**/spec/*'
+    - 'spec/**/*'
+
