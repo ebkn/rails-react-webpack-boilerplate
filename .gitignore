@@ -41,3 +41,6 @@
 
 # Ignore secrets
 /.env
+
+# Ignore file built by webpack
+/app/assets/javascripts/main.js
