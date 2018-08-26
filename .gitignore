@@ -34,3 +34,7 @@
 
 # Ignore coverage
 /coverage
+
+# Ignore edotor settings
+/.idea
+/.vscode
