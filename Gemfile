@@ -18,6 +18,8 @@ group :development, :test do
   gem 'simplecov'
   # check query
   gem 'bullet'
+  # linter
+  gem 'rubocop', require: false
 end
 
 group :development do
