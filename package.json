@@ -6,5 +6,11 @@
   "repository": "https://github.com/ebkn/rails-react-webpack-boilerplate",
   "author": "ebkn <ktennis.mqekr12@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.0.0-rc.3",
+    "@babel/preset-env": "^7.0.0-rc.3",
+    "babel-loader": "^8.0.0-beta",
+    "webpack": "^4.17.1"
+  }
 }
