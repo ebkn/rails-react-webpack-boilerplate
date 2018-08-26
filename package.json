@@ -1,5 +1,10 @@
 {
   "name": "rails-react-webpack-boilerplate",
-  "private": true,
-  "dependencies": {}
+  "version": "0.0.1",
+  "description": "boilerplate for rails and react built by webpack",
+  "main": "frontend/index.jsx",
+  "repository": "https://github.com/ebkn/rails-react-webpack-boilerplate",
+  "author": "ebkn <ktennis.mqekr12@gmail.com>",
+  "license": "MIT",
+  "private": true
 }
