@@ -12,6 +12,10 @@ group :development, :test do
   # debug
   gem 'pry-rails'
   gem 'pry-byebug'
+  # test
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'simplecov'
 end
 
 group :development do
