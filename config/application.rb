@@ -35,6 +35,7 @@ module RailsReactWebpackBoilerplate
 
     # generator settings
     config.generators do |g|
+      g.assets false
       g.test_framework :rspec
       g.fixture_replacement :factory_bot, dir: 'spec/factories'
     end
