@@ -5,11 +5,9 @@ module.exports = {
   mode: env,
   entry: './frontend/index.jsx',
   output: {
-    path: path.resolve(__dirname, 'public/assets'),
+    path: path.resolve(__dirname, 'app/assets/javascripts'),
     filename: 'main.js',
-    publicPath: {
-      development: '/assets',
-    }[env],
+    publicPath: '/assets',
   },
   module: {
     rules: [

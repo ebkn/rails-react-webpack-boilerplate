@@ -2,8 +2,8 @@
 
 module ApplicationHelper
   def webpack_path(filename)
-    if Rails.env == 'development'
-      ENV['WEBPACK_SERVER_PUBLIC_PATH']
+    if Rails.env.development?
+      ENV['WEBPACK_DEV_SERVER_OUTPUT_FILE']
     else
       filename
     end
